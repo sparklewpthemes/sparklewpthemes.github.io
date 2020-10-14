@@ -1,11 +1,11 @@
 {
-    "title": "Heroic Features",
-    "name": "startbootstrap-heroic-features",
-    "version": "4.2.2",
+    "title": "SparkleTheme Demos",
+    "name": "sparklethemes-demos",
+    "version": "1.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "An HTML template with a hero heading and feature cards built with Bootstrap",
+    "description": "An HTML template with a hero heading and feature cards built with Bootstrap for documentation list",
     "keywords": [
         "css",
         "sass",
@@ -14,19 +14,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/templates/heroic-features",
+    "homepage": "https://sparklewpthemes.github.io",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-heroic-features/issues",
+        "url": "https://sparklewpthemes.github.io/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Kishor (http://Kishorkumarmahato.com.np/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-heroic-features.git"
+        "url": "https://sparklewpthemes.github.io.git"
     },
     "dependencies": {
         "bootstrap": "4.5.0",
