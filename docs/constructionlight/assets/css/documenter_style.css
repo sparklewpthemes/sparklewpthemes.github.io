@@ -1,0 +1,345 @@
+/*!
+ * Documenter 2.0
+ * http://rxa.li/documenter
+ *
+ * Copyright 2011, Xaver Birsak
+ * http://revaxarts.com
+ *
+ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+html {
+    font-size: 101%;
+    font-family: Arial, verdana, arial, sans-serif;
+    font-size: 12px;
+    -webkit-text-size-adjust: none;
+    color: #6F6F6F;
+    background-color: #fff;
+}
+footer,
+header,
+section {
+    display: block;
+}
+a {
+    color: #6F6F6F;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: none;
+}
+p,
+ul,
+ol {
+    margin: 0;
+    line-height: 1.5em;
+    padding: 0; 
+}
+li {
+    list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+body {
+	background: #fff;
+	font-family: Open Sans;
+	font-size: 15px;
+}
+.sv-container {
+	max-width: 1170px;
+	margin: 0 auto;
+	clear: both;
+}
+.clear {
+	clear: both;
+}
+section {
+	padding-bottom: 50px;
+}
+* {
+	-webkit-box-sizing: border-box;
+	-ms-sizing: border-box;
+	box-sizing: border-box;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+p {
+	margin-bottom: 15px;
+}
+/*==================
+header css
+==================*/
+.sv-logo-holder {
+	background: #edefe3;
+	padding: 15px 80px;
+	text-align: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+}
+.sv-logo-holder .sv-logo h2 {
+	font-size: 45px;
+	display: block;
+}
+/*===================
+content css
+===================*/
+#sv-documenter-sidebar {
+	float: left;
+    width: 280px;
+    position: fixed;
+    padding-top: 100px;
+    height: 100%;
+    max-height: 910px;
+}
+#sv-documenter-content {
+	width: 76%;
+	float: right;
+	padding-top: 110px;
+	padding-left: 30px;
+	height: 100vh;
+}
+/*===========================
+
+===========================*/
+h2.sv-sidebar-header {
+	color: #4D4D4D;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0 0px 0;
+    margin-bottom: 35px;
+    text-decoration: none;
+    font-family: Raleway;
+    text-transform: uppercase;
+    position: relative;
+}
+h2.sv-sidebar-header:before {
+	content: '';
+    position: absolute;
+    height: 3px;
+    width: 50px;
+    bottom: -10px;
+    background: #c0d153;
+}
+#sv-documenter-sidebar .mCSB_scrollTools .mCSB_draggerRail {
+	display: none;
+}
+#sv-documenter-sidebar #mCSB_1_dragger_vertical .mCSB_dragger_bar {
+	background: #c0d153;
+}
+#sv-documenter-sidebar .sv-scoller ul {
+	margin-bottom: 30px;
+}
+#sv-documenter-sidebar .sv-scoller ul ul {
+	margin: 11px 0 20px 20px;
+}
+#sv-documenter-sidebar .sv-scoller ul ul li {
+	list-style: disc;
+	font-size: 14px !important;
+}
+#sv-documenter-sidebar .sv-scoller li,
+#sv-documenter-sidebar .sv-scoller li ul li {
+	font-size: 15px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+#sv-documenter-sidebar .sv-scoller li a {
+	transition: all ease 0.3s;
+	-webkit-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+}
+#sv-documenter-sidebar .sv-scoller li a:hover {
+	color: #c0d153;
+}
+#sv-documentation-cover {
+	text-align: center;
+}
+#sv-documentation-cover h1 {
+	font-size: 36px;
+	font-family: Raleway; 
+	margin-bottom: 30px;
+	position: relative;
+}
+#sv-documentation-cover h1:before {
+	position: absolute;
+	content: '';
+	width: 50%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+	height: 1px;
+	background: #c0d153;
+}
+#sv-documentation-cover h1 span {
+	display: block;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+#sv-documentation-cover #documenter_buttons {
+	margin-bottom: 20px;
+}
+#sv-documentation-cover #documenter_buttons a {
+	display: inline-block;
+    margin: 0 5px;
+    padding: 8px 15px;
+    border: 1px solid #f00;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    background: #f00;
+    color: #fff;
+    
+    text-transform: uppercase;
+    text-align: center;
+}
+#sv-documentation-cover #documenter_buttons a:hover {
+	background: transparent;
+	color: #f00;
+}
+#sv-documentation-cover #documenter_buttons a.btn-primary {
+    background: #ffb606;
+    border: 1px solid #ffb606;
+}
+#sv-documentation-cover #documenter_buttons a.btn-primary:hover {
+	background: transparent;
+	color: #c0d153;
+}
+#sv-documenter-content ul.sv-date li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+	text-transform: capitalize;
+	font-size: 14px;
+}
+#sv-documenter-content ul.sv-date li a {
+	text-transform: lowercase;
+	color: #c0d153;
+	transition: all ease 0.3s;
+	-webkit-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+}
+#sv-documenter-content ul.sv-date li a:hover {
+	color: #f00;
+}
+#sv-documenter-content h2.doc-heading {
+	font-size: 29px;
+	line-height: 33px;
+	text-transform: capitalize;
+}
+#sv-documenter-content h3.sub-header {
+	font-size: 21px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	color: #000;
+}
+#sv-documenter-content a.link {
+	color: #333;
+	text-decoration: underline;
+	transition: all ease 0.3s;
+	-webkit-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+}
+#sv-documenter-content a.link:hover {
+	color: #f00;
+}
+#sv-documenter-content section img {
+	margin: 25px 0 35px; 
+}
+#sv-documenter-content section span.alert {
+	color: #f00;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-style: italic;
+}
+footer#footer {
+	position: fixed;
+    z-index: 999999;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.sv-logo {
+    text-align: center;
+}

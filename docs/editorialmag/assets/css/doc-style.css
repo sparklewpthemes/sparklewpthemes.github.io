@@ -1,0 +1,33 @@
+.doc-desc{
+	color: rgb(96, 96, 96);
+	line-height: 1.4;
+	font-size: 18px;
+}
+.docsblock {
+    background: #f6f6f6 none repeat scroll 0 0;
+    margin-top: 27px;
+    padding: 13px 0 1px;
+}
+.theme-docs-title {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0 0 11px 11px;
+    color: rgb(96, 96, 96);
+    font-weight: 700 !important;
+}
+.docsblock ol li, .docsblock ul li {
+    color: #717171;
+    padding: 0 0 2px 7px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.docsblock .folder-link {
+    background: #449d44 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0 5px;
+    padding: 3px 4px;
+}
+.cptr-img{
+  width: 80%;
+}
