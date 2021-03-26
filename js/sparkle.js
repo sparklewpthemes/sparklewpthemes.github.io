@@ -1,5 +1,11 @@
 
 var documentList = [
+       {
+        "title" : "Online eStore",
+        "description" : "Online eStore is a user-friendly, feature-rich, intuitive, creative, powerful, impressive engaging and dynamic, fully customizable responsive.",
+        "link"      : "https://docs.sparklewpthemes.com/onlineestore/",
+        "image"     : 'https://i0.wp.com/themes.svn.wordpress.org/online-estore/1.0.2/screenshot.png?w=572&strip=all'
+    },
     {
         "title" : "Construction Light",
         "description" : "Construction Light is a user-friendly, feature-rich, intuitive, creative, powerful, impressive engaging and dynamic, fully customizable responsive.",
