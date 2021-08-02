@@ -1,6 +1,12 @@
 
 var documentList = [
-       {
+    {
+        "title" : "AppZend - Multipurpose Theme",
+        "description" : "Appzend is a clean and fully customizable, responsive business WordPress theme, also appzend business theme help to develop awesome and modern different types of business websites.",
+        "link"      : "https://docs.sparklewpthemes.com/appzend/",
+        "image"     : 'https://i0.wp.com/themes.svn.wordpress.org/appzend/1.1.5/screenshot.png?w=1144&strip=all'
+    },
+    {
         "title" : "Online eStore",
         "description" : "Online eStore is a user-friendly, feature-rich, intuitive, creative, powerful, impressive engaging and dynamic, fully customizable responsive.",
         "link"      : "https://docs.sparklewpthemes.com/onlineestore/",
